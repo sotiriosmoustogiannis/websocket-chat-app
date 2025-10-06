@@ -48,7 +48,7 @@ chat-app/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/chat-app.git
+[git clone https://github.com/sotiriosmoustogiannis/websocket-chat-app.git](https://github.com/sotiriosmoustogiannis/websocket-chat-app.git)
 cd chat-app
 ```
 
@@ -130,5 +130,5 @@ UserB joined the chat
 
 ## 🧑‍💻 Author
 
-**Sotiris** — Jr. Full-Stack Developer  
-💼 [GitHub Profile](https://github.com/<your-username>)
+**Sotiris** — Full-Stack Software Engineer  
+💼 [GitHub Profile](https://github.com/sotiriosmoustogiannis)
