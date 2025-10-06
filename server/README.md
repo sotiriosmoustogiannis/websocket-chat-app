@@ -1,7 +1,7 @@
 # 💬 Simple Chat App (React + Node + WebSocket)
 
 A lightweight real-time chat application built with **React** on the frontend and **Express + WebSocket** on the backend.  
-It supports live messaging, user join/leave notifications, and displays online users dynamically.
+Supports live messaging, join/leave notifications, and displays online users dynamically.
 
 ---
 
@@ -38,102 +38,34 @@ chat-app/
 ├── package.json
 └── README.md
 
-yaml
-Copy code
-
----
-
 ## 🛠️ Setup & Installation
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/<your-username>/chat-app.git
 cd chat-app
+
 2. Install dependencies
 Server
-bash
-Copy code
+
 cd server
 npm install
+
 Client
-bash
-Copy code
 cd ../client
 npm install
+
+
 🏃 Running the App
 Option 1: Run each part manually
-In one terminal:
-
-bash
-Copy code
+# Server
 cd server
 node index.js
-In another terminal:
 
-bash
-Copy code
+# Client
 cd client
 npm start
-Frontend will open at http://localhost:3000
-Server runs at http://localhost:4000
 
-Option 2: Run both with one command
-If you have a root package.json using concurrently:
+Frontend runs on http://localhost:3000
 
-bash
-Copy code
-npm run dev
-(Optional but recommended setup — I can show you how to configure this.)
-
-🧩 Tech Stack
-Frontend
-
-React 18
-
-Material UI
-
-WebSocket client
-
-Backend
-
-Node.js
-
-Express
-
-ws (WebSocket server)
-
-📸 Preview
-(You can add a screenshot here later, e.g. client/public/chat-preview.png)
-
-text
-Copy code
-UserA joined the chat
-UserB joined the chat
-[UserA]: Hello everyone!
-[UserB]: Hey there 👋
-🧠 Next Steps
-Add message persistence with a database (MongoDB or SQLite)
-
-Include avatars for users
-
-Add private chat rooms or channels
-
-Deploy on Render / Vercel
-
-🧑‍💻 Author
-Sotiris
-Jr. Full-Stack Developer
-💼 GitHub Profile
-
-yaml
-Copy code
-
----
-
-Would you like me to include the optional **root `package.json`** setup that lets you run both the server and client at once with `npm run dev`? It’s very handy for local development.
-
-
-
-
-
-
+Server runs on http://localhost:4000
