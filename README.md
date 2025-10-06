@@ -49,7 +49,7 @@ chat-app/
 
 ```bash
 git clone https://github.com/sotiriosmoustogiannis/websocket-chat-app.git
-cd chat-app
+cd websocket-chat-app
 ```
 
 ### 2. Install dependencies
